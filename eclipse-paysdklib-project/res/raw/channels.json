@@ -1,0 +1,21 @@
+{
+  "merchantNo": "888100000000003",
+  "merchantKey": "1122334455",
+  "payServerUrl": "http://192.168.1.102:9080/pay-web-gateway/",
+  "language": "en_US",
+  "country": "US",
+  "channels": [
+	{
+	  "name": "XL",
+	  "frpCode": "ID-DCB-XL"
+	},
+	{
+	  "name": "BPI",
+	  "frpCode": "PH-BANK-BPI"
+	},
+	{
+	  "name": "1PAY",
+	  "frpCode": "VN-VR-1PAY"
+	}
+  ]
+}

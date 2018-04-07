@@ -1,0 +1,52 @@
+<resources>
+	<string name="app_name">Pay SDK 应用</string>
+	<string name="action_settings">设置</string>
+	<string name="test_name">测试</string>
+
+	<string name="title_channel_list">选择支付通道</string>
+	<string name="title_pay_req">发起支付</string>
+	<string name="title_pay_rsp">支付指导</string>
+	<string name="title_webview">在线支付</string>
+	<string name="title_pay_otp">支付校验</string>
+
+	<string name="detail_title">订单详情</string>
+	<string name="detail_product">商品：</string>
+	<string name="detail_order">订单：</string>
+	<string name="detail_amount">金额：</string>
+	<string name="detail_merchant">商家：</string>
+
+	<string name="req_title">支付方法</string>
+	<string name="req_bank_at">银行支付选择：</string>
+	<string name="req_vr_pin_code">点卡支付选择：</string>
+	<string name="req_mobile">手机号</string>
+	<string name="req_email">邮箱地址</string>
+	<string name="req_vr_code">点卡ID</string>
+	<string name="req_vr_pin">点卡密码</string>
+
+	<string name="otp_code">校验码</string>
+	<string name="otp_error_instruction">错误的校验码</string>
+
+	<string name="rsp_detail">按照指示完成支付!</string>
+
+	<string name="bank_title">银行名称</string>
+	<string name="no_data">没有记录</string>
+
+	<string name="button_confirm">确定</string>
+	<string name="button_close">关闭</string>
+
+	<string name="dialog_title">操作进行中</string>
+	<string name="dialog_message">正在连接服务器</string>
+	<string name="dialog_error_title">支付失败!</string>
+	<string name="dialog_error_message">支付失败!</string>
+
+	<string name="snackbar_channellist">请先选择支付渠道。</string>
+	<string name="snackbar_payreq">请先输入用户支付信息。</string>
+	<string name="snackbar_payrsp">请按照提示完成支付。</string>
+	<string name="snackbar_payotp">请先输入支付校验信息。</string>
+	<string name="snackbar_payotp_error">多次输入错误支付校验。</string>
+
+	<string name="error_general">应用错误!</string>
+	<string name="error_network">网络错误!</string>
+	<string name="error_payment">支付失败!</string>
+	<string name="loading">加载中...</string>
+</resources>

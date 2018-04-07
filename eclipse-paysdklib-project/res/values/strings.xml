@@ -1,0 +1,54 @@
+<resources>
+	<string name="app_name">Pay SDK App</string>
+	<string name="action_settings">Settings</string>
+	<string name="test_name">test</string>
+
+	<string name="title_channel_list">Payment channel selection</string>
+	<string name="title_pay_req">Payment request</string>
+	<string name="title_pay_rsp">Payment instructions</string>
+	<string name="title_webview">Online payment</string>
+	<string name="title_pay_otp">Payment otp</string>
+
+	<string name="detail_title">Order detail</string>
+	<string name="detail_product">Product: </string>
+	<string name="detail_order">Order: </string>
+	<string name="detail_amount">Amount: </string>
+	<string name="detail_merchant">Merchant: </string>
+
+	<string name="req_title">Payment method</string>
+	<string name="req_bank_at">Bank payment options: </string>
+	<string name="req_vr_pin_code">VR payment options: </string>
+	<string name="req_mobile">Mobile number</string>
+	<string name="req_email">Email address</string>
+	<string name="req_vr_code">Voucher code</string>
+	<string name="req_vr_pin">Voucher pin</string>
+
+	<string name="otp_code">Verification code</string>
+	<string name="otp_error_instruction">Wrong verification code</string>
+
+	<string name="rsp_detail">Follow the instruction to complete payment!</string>
+
+	<string name="bank_title">Bank Title</string>
+	<string name="no_data">There are no records</string>
+
+	<string name="button_confirm">Confirm</string>
+	<string name="button_close">Close</string>
+
+	<string name="dialog_title">In progress</string>
+	<string name="dialog_message">Connecting to server..</string>
+	<string name="dialog_error_title">Sorry, please try later</string>
+	<string name="dialog_error_message">Sorry, please try later</string>
+
+	<string name="snackbar_channellist">Please select channel first to proceed.</string>
+	<string name="snackbar_payreq">Please input user information first to proceed.</string>
+	<string name="snackbar_payrsp">Please follow instruction to complete payment.</string>
+	<string name="snackbar_payotp">Please input OTP information first to proceed.</string>
+	<string name="snackbar_payotp_error">Input invalid OTP too many times.</string>
+
+	<string name="error_general">Application error!</string>
+	<string name="error_network">Network error!</string>
+	<string name="error_payment"></string>
+
+	<string name="loading">Loading...</string>
+
+</resources>

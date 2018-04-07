@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/Tier2"
+              android:orientation="vertical">
+
+	<android.support.design.widget.TextInputLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<android.support.design.widget.TextInputEditText
+			style="@style/TierText"
+			android:id="@+id/pay_req_mobile"
+			android:hint="@string/req_mobile"
+			android:inputType="phone"/>
+
+	</android.support.design.widget.TextInputLayout>
+
+	<android.support.v7.widget.AppCompatSpinner
+		style="@style/TierText"
+		android:id="@+id/bank_pay_at_spinner"
+		android:prompt="@string/req_bank_at"
+		android:spinnerMode="dropdown"/>
+
+</LinearLayout>

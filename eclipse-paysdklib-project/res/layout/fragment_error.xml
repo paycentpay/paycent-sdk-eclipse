@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:fitsSystemWindows="false"
+	>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="80dp"
+		    android:background="@color/cardview_dark_background"
+			>
+
+			<ImageView
+				android:id="@+id/pay_error_icon"
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+				android:layout_alignParentStart="true"
+				android:layout_alignParentLeft="true"
+				android:layout_centerVertical="true"
+				android:layout_marginStart="10dp"
+				android:layout_marginLeft="10dp"
+				android:layout_marginEnd="5dp"
+				android:layout_marginRight="5dp"
+				android:cropToPadding="true"
+				android:scaleType="fitCenter"
+				/>
+
+			<TextView
+				android:id="@+id/pay_error_title"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_toEndOf="@id/pay_error_icon"
+				android:layout_toRightOf="@id/pay_error_icon"
+				android:gravity="center_vertical"
+				android:paddingLeft="4dp"
+				android:paddingRight="4dp"
+				android:textStyle="bold"
+			    android:textColor="?android:textColorPrimaryInverse"
+				/>
+
+		</RelativeLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+		    android:layout_marginTop="20dp"
+			>
+
+			<Button
+			        android:id="@+id/pay_error_button"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:paddingStart="30dp"
+			        android:paddingEnd="30dp"
+			        android:gravity="center"
+			        android:text="@string/button_close"
+				/>
+
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
