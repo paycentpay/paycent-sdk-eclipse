@@ -18,16 +18,17 @@ In Eclipse, use API v23 or higher version to build, the output APK supports Andr
 ## Import android support projects 
 
 Please find 4 android support projects source code in your ADT sdk installation directory “sdk/extras/android/support”:
-* v7/appcompact
-* v7/cardview
-* v7/recyclerview
-*	design
-
+<pre>
+ v7/appcompact
+ v7/cardview
+ v7/recyclerview
+ design
+</pre>
 Import these 4 Projects in your workspace like showed in above figure.
 
 Edit each project.properties file under the root directory of each dependent project, make the project as library: 
-*      android.library=true
-
+ <pre>     android.library=true
+</pre>
 Edit AndroidMenifest.xml file (target version could be greater than 23).
 
 Importantly, need to add dependencies for project “design”: In package explore view, right click project “design”, and open the dialog from properties (menu), select android and check API , then add above dependent projects “appcompat” and “cardview” .
@@ -44,3 +45,5 @@ If built success, it will generate R files under your app gen directory. One of 
 Trouble shooting notes: 
 1) Under some version of Eclipse, if R class file was not generated successfully, please clean the project build or restart the eclipse workspace, it will build the workspace again.  
 2) Use JDK1.7 and higher version. 
+
+After the sdk imported successfully, you can write the integration code as the sample reference.
