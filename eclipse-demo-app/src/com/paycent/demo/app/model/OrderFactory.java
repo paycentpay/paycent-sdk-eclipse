@@ -107,88 +107,34 @@ public class OrderFactory {
 
 	private static Map<String, String> idMaps = new HashMap<>();
 	static{
-		idMaps.put("ID-IB-SIM", "SIM");
-
+		
 		idMaps.put("ID-DCB-TELKOMSEL", "TELKOMSEL");
 		idMaps.put("ID-DCB-INDOSAT", "INDOSAT");
 		idMaps.put("ID-DCB-XL", "XL");
 		idMaps.put("ID-DCB-H3I", "H3I");
-
-		idMaps.put("ID-EW-TELKOMSEL", "TELKOMSEL");
-		idMaps.put("ID-EW-INDOSAT", "INDOSAT");
-		idMaps.put("ID-EW-XL", "XL");
 		idMaps.put("ID-EW-UNIPIN", "UNIPIN");
 
 		idMaps.put("ID-BANK-BCA", "BCA");
-		idMaps.put("ID-BANK-BRI", "BRI");
-		idMaps.put("ID-BANK-BII", "BII");
-		idMaps.put("ID-BANK-BNI", "BNI");
-		idMaps.put("ID-BANK-CIMB", "CIMB");
-		idMaps.put("ID-BANK-MANDIRI", "MANDIRI");
-		idMaps.put("ID-BANK-PERMATA", "PERMATA");
-		idMaps.put("ID-BANK-OTHER", "OTHER");
-
 		idMaps.put("ID-OTC-ALFAMART", "ALFAMART");
 	}
 
 	private static Map<String, String> thMaps = new HashMap<>();
 	static{
-		thMaps.put("TH-IB-SIM", "SIM");
-
+		
 		thMaps.put("TH-DCB-DTAC", "DTAC");
 
-		thMaps.put("TH-BANK-BAY", "BAY");
-		thMaps.put("TH-BANK-BBL", "BBL");
-		thMaps.put("TH-BANK-CIMB", "CIMB");
-		thMaps.put("TH-BANK-KBANK", "KBANK");
-		thMaps.put("TH-BANK-KTB", "KTB");
-		thMaps.put("TH-BANK-SCB", "SCB");
-		thMaps.put("TH-BANK-TBANK", "TBANK");
-		thMaps.put("TH-BANK-TMB", "TMB");
-
-		thMaps.put("TH-OTC-BIGC", "BIGC");
-		thMaps.put("TH-OTC-FAMILYMART", "FAMILYMART");
-		thMaps.put("TH-OTC-MPAY", "MPAY");
-		thMaps.put("TH-OTC-PAYATPOST", "PAYATPOST");
-		thMaps.put("TH-OTC-TESCO", "TESCO");
-		thMaps.put("TH-OTC-TOT", "TOT");
-		thMaps.put("TH-OTC-TRUEMONEY", "TRUEMONEY");
-		thMaps.put("TH-OTC-CENPAY", "CENPAY");
-
-		thMaps.put("TH-VR-TRUEMONEY", "TRUEMONEY");
-		thMaps.put("TH-VR-DTACCASH", "DTACCASH");
 	}
 
 	private static Map<String, String> phMaps = new HashMap<>();
 	static {
-		phMaps.put("PH-IB-SIM", "SIM");
-
+	
 		phMaps.put("PH-DCB-SMART", "SMART");
 
-		phMaps.put("PH-BANK-METROBANK", "METROBANK");
-		phMaps.put("PH-BANK-BPI", "BPI");
-		phMaps.put("PH-BANK-PNB", "PNB");
-		phMaps.put("PH-BANK-BDO", "BDO");
-		phMaps.put("PH-BANK-RCBC", "RCBC");
-		phMaps.put("PH-BANK-CHINABANK", "CHINABANK");
-		phMaps.put("PH-BANK-UCPB", "UCPB");
-		phMaps.put("PH-BANK-SECURITYBANK", "SECURITYBANK");
-		phMaps.put("PH-BANK-UNIONBANK", "UNIONBANK");
-		phMaps.put("PH-BANK-EASTWEST", "EASTWEST");
-		phMaps.put("PH-BANK-MAYBANK", "MAYBANK");
-		phMaps.put("PH-BANK-STERLINGBANK", "STERLINGBANK");
-		phMaps.put("PH-BANK-LANDBANK", "LANDBANK");
-
-		phMaps.put("PH-OTC-ROBINSONSSTORE", "ROBINSONSSTORE");
-		phMaps.put("PH-OTC-BAYADCENTER", "BAYADCENTER");
-		phMaps.put("PH-OTC-7ELEVEN", "7ELEVEN");
-		phMaps.put("PH-OTC-GCASH", "GCASH");
 	}
 
 	private static Map<String, String> vnMaps = new HashMap<>();
 	static {
-		vnMaps.put("VN-IB-SIM", "SIM");
-
+	
 		vnMaps.put("VN-DCB-VIETTEL", "VIETTEL");
 		vnMaps.put("VN-DCB-MOBIFONE", "MOBIFONE");
 		vnMaps.put("VN-DCB-VINAPHONE", "VINAPHONE");
@@ -204,13 +150,11 @@ public class OrderFactory {
 
 	private static Map<String, String> mmMaps = new HashMap<>();
 	static {
-		mmMaps.put("MM-IB-SIM", "SIM");
+	
 		mmMaps.put("MM-IB-CB", "CB");
 
 		mmMaps.put("MM-DCB-OOREDOO", "OOREDOO");
 		mmMaps.put("MM-DCB-TELENOR", "TELENOR");
-
-		mmMaps.put("MM-OTC-WAVEMONEY", "WAVEMONEY");
 
 		mmMaps.put("MM-VR-REDDOT", "REDDOT");
 
@@ -220,19 +164,15 @@ public class OrderFactory {
 
 		mmMaps.put("MM-EW-OKDOLLAR", "OKDOLLAR");
 
-		mmMaps.put("MM-DCB-MPT", "MPT");
 	}
 
 	private static Map<String, String> sgMaps = new HashMap<>();
 	static {
-		sgMaps.put("SG-IB-SIM", "SIM");
-
 		sgMaps.put("SG-DCB-M1", "M1");
 	}
 
 	private static Map<String, String> myMaps = new HashMap<>();
 	static {
-		myMaps.put("MY-IB-SIM", "SIM");
 
 		myMaps.put("MY-DCB-MAXIS", "MAXIS");
 	}
@@ -243,9 +183,7 @@ public class OrderFactory {
 		inMaps.put("IN-DCB-VODAFONE", "VODAFONE");
 		inMaps.put("IN-DCB-IDEA", "IDEA");
 		inMaps.put("IN-DCB-AIRTEL", "AIRTEL");
-		inMaps.put("IN-EW-VODAFONE", "VODAFONE");
-		inMaps.put("IN-EW-IDEA", "IDEA");
-		inMaps.put("IN-EW-AIRTEL", "AIRTEL");
+
 	}
 
 	private static Map<String, Map<String, String>>channelMaps = new HashMap<>();
