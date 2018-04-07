@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Paycent Demo</string>
+
+	<string name="title_fragment_old">Simple v4 fragment</string>
+
+	<string name="title_fragment_order_req_list">Order request list</string>
+
+	<string name="title_fragment_order_req_fragment">Checkout </string>
+
+	<string name="title_fragment_order_result">Order result</string>
+
+	<string name="payment_item">Item</string>
+
+	<string name="action_finished">Finished</string>
+
+	<string name="order_result_success">Payment success!</string>
+	<string name="order_result_failure">Sorry</string>
+
+    <string name="country_prompt">Choose a country</string>
+	<string-array name="country_arrays">
+		<item name="ID">Indonesia</item>
+		<item name="MM">Myanmar</item>
+		<item name="TH">Thailand</item>
+		<item name="My">Malaysia</item>
+		<item name="VN">Vietnam</item>
+		<item name="PH">Philippines</item>
+        <item name="SG">Singapore</item>
+		<item name="IN">India</item>
+	</string-array>
+
+
+</resources>

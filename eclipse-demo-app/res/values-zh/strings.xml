@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Paycent演示</string>
+
+	<string name="title_fragment_old">Simple v4 fragment</string>
+
+	<string name="title_fragment_order_req_list">订单请求列表</string>
+
+	<string name="title_fragment_order_req_fragment">订单确认</string>
+
+	<string name="title_fragment_order_result">订单结果</string>
+
+	<string name="payment_item">成员</string>
+
+	<string name="action_finished">完成</string>
+
+	<string name="order_result_success">支付成功！</string>
+	<string name="order_result_failure">支付失败！</string>
+
+    <string name="country_prompt">选择国家</string>
+	<string-array name="country_arrays">
+		<item name="ID">Indonesia</item>
+		<item name="MM">Myanmar</item>
+		<item name="TH">Thailand</item>
+		<item name="My">Malaysia</item>
+		<item name="VN">Vietnam</item>
+		<item name="PH">Philippines</item>
+		<item name="SG">Singapore</item>
+		<item name="IN">India</item>
+	</string-array>
+
+</resources>
