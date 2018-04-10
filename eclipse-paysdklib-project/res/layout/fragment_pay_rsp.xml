@@ -44,6 +44,14 @@
 				android:text=""/>
 
 			<TextView
+				android:id="@+id/pay_rsp_paymentCode_label"
+				style="@style/PayDetailLabel"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/paymentCode_label"/>
+
+
+			<TextView
 				style="@style/TierText"
 				android:id="@+id/pay_rsp_paymentCode"
 				android:layout_width="match_parent"
