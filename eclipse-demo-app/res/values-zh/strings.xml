@@ -9,7 +9,7 @@
 
 	<string name="title_fragment_order_req_fragment">订单确认</string>
 
-	<string name="title_fragment_order_result">订单结果</string>
+	<string name="title_fragment_order_result">Demo App 订单结果</string>
 
 	<string name="payment_item">成员</string>
 

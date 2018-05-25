@@ -9,7 +9,7 @@
 
 	<string name="title_fragment_order_req_fragment">Checkout </string>
 
-	<string name="title_fragment_order_result">Order result</string>
+	<string name="title_fragment_order_result">Demo app - Order result</string>
 
 	<string name="payment_item">Item</string>
 
