@@ -216,10 +216,14 @@ public class OrderFactory {
 	}
 
 	public String[] getChannelCodes(String countryCode){
-
+		//Option1: you can input multiple channels code instead of using dynamic channels
+		/*
 		Object[] ks = channelMaps.get(countryCode).keySet().toArray();
+		return Arrays.copyOf(ks, ks.length, String[].class);
+		*/
 
-		return  Arrays.copyOf(ks, ks.length, String[].class );
+		//Option2 : you can input empty, it will retrieve channels from server dynamically
+		return null;
 	}
 
 

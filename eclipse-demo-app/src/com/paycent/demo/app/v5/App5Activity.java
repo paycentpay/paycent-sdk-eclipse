@@ -104,8 +104,9 @@ public class App5Activity extends SingleFragmentActivity {
 		req.setAmount(amount);
 		req.setProductName("SDK Game Credits"+amount);
 		req.setFrpCodes(orderFactory.getChannelCodes(countryCode));
-		Log.i(TAG, req.getFrpCodes().toString() );
-
+		if( req.getFrpCodes() != null){
+			Log.i(TAG, req.getFrpCodes().toString() );
+		}
 
 		SdkPayTask sdkTask = SdkPayTaskFactory.getInstance(this);
 

@@ -48,5 +48,8 @@
 	<string name="error_general">应用错误!</string>
 	<string name="error_network">网络错误!</string>
 	<string name="error_payment">支付失败!</string>
+	
+	<string name="paymentCode_label">Payment code: </string>
+	
 	<string name="loading">加载中...</string>
 </resources>

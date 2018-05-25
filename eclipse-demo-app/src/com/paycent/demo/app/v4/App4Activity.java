@@ -82,8 +82,9 @@ public class App4Activity extends FragmentActivity {
 		req.setProductName("SDK Game credits");
 		req.setAmount(amount);
 		req.setFrpCodes(orderFactory.getChannelCodes(countryCode));
-		Log.i(TAG, req.getFrpCodes().toString() );
-
+		if( req.getFrpCodes() != null){
+			Log.i(TAG, req.getFrpCodes().toString() );
+		}
 		SdkPayTask sdkTask = SdkPayTaskFactory.getInstance(this);
 
 		sdkTask.pay(req, mHandler);

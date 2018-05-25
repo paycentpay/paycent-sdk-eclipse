@@ -48,6 +48,7 @@
 	<string name="error_general">Application error!</string>
 	<string name="error_network">Network error!</string>
 	<string name="error_payment"></string>
+	<string name="paymentCode_label">Payment code: </string>
 
 	<string name="loading">Loading...</string>
 
