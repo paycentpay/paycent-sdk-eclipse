@@ -14,6 +14,7 @@
         android:supportsRtl="true" >
         <activity
             android:name="com.paycent.android.impl.ui.PaymentActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
             android:theme="@style/SdkTheme"
             android:windowSoftInputMode="adjustPan" >
         </activity>
