@@ -47,3 +47,7 @@ Trouble shooting notes:
 2) Use JDK1.7 and higher version. 
 
 After the sdk imported successfully, you can write the integration code as the sample reference.
+
+3) Notice: 
+ add one line in AndroidManifest to avoid resumit payment order in webview:
+<pre> android:configChanges="orientation|keyboardHidden|screenSize" </pre>
